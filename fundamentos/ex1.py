@@ -15,3 +15,17 @@
 
 # exercicio 3
 
+texto1 = "arara"
+texto2 = "python"
+
+#remover espaço em brabco
+texto1Format = texto1.lower().replace(" ", "")
+texto2Format = texto2.lower().replace(" ", "")
+
+# verifica de o texto original e igual ao reverso
+
+palindromo = texto1Format == texto1[::-1]
+palindromo2 = texto2Format == texto2[::-1]
+
+print(palindromo)
+print(palindromo2)
